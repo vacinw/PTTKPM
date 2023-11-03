@@ -1,0 +1,25 @@
+.wrapper {
+    width: 240px;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    top: 66px;
+    padding: 12px;
+    overflow-y: scroll;
+
+    &::-webkit-scrollbar {
+        width: 4px;
+        background-clip: content-box;
+        background-color: rgba(22 24 35 / 3%);
+    }
+
+    &::-webkit-scrollbar-thumb {
+        background-color: rgba(22 24 35 / 12%);
+    }
+}
+
+.hr {
+    height: 1px;
+    background-color: rgba(22 24 35 / 12%);
+    margin: 12px 0;
+}

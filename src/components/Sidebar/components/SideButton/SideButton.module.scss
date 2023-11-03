@@ -1,0 +1,38 @@
+.wrapper {
+  height: 40px;
+  width: 204px;
+  padding: 0 12px;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  color: #0a1d37;
+  cursor: pointer;
+
+  &:hover {
+    background-color: rgba(22 24 35 / 5%);
+
+    .icon {
+      background-color: #f3f3f4;
+    }
+  }
+}
+
+.icon {
+  width: 24px;
+  height: 24px;
+  margin-right: 24px;
+}
+
+.active {
+  background-color: rgba(22 24 35 / 12%);
+}
+
+.no-active {
+  background-color: #fff;
+}
+
+.icon.active {
+  color: #98767d;
+  background-color: #e3e3e4;
+}

@@ -1,0 +1,19 @@
+.wrapper {
+    padding: 0 12px;
+    display: flex;
+    flex-direction: column;
+
+    .section {
+        display: flex;
+        flex-direction: column;
+
+        .footer-link {
+            text-decoration: none;
+            color: rgba(22 24 35 / 50%);
+            line-height: 1.4rem;
+        }
+    }
+    .section + .section {
+        margin-top: 12px;
+    }
+}

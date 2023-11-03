@@ -1,0 +1,44 @@
+$primary-color: rgb(91, 118, 165);
+$border-color: rgba(124 150 171 / 12%);
+$text-color: rgb(22 24 35);
+
+.btn {
+  min-width: 100px;
+  font-size: 16px;
+  padding: 10px 8px;
+  border-radius: 4px;
+  border: 1px solid $border-color;
+  text-align: center;
+  color: $text-color;
+  cursor: pointer;
+
+  &:hover {
+    background-color: rgba(22 24 35 / 3%);
+  }
+}
+
+.btn + .btn {
+  margin-left: 12px;
+}
+
+.primary {
+  background-color: $primary-color;
+  color: white;
+  border-color: $primary-color;
+
+  &:hover {
+    background-color: rgba(91 118 165 / 90%);
+  }
+}
+
+.user {
+  min-width: 40px;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+}
+
+.btn-icon {
+  min-width: 36px;
+  padding: 8px;
+}

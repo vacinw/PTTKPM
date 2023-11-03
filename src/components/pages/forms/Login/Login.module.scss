@@ -1,0 +1,12 @@
+@import "../form.module";
+
+.forgot-password {
+  font-size: 10px;
+  color: rgb(159 116 125);
+  text-align: center;
+  margin-top: 10px;
+
+  &:hover {
+    color: #8195a9;
+  }
+}

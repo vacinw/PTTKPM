@@ -1,0 +1,158 @@
+.wrapper {
+  position: fixed;
+  bottom: 50px;
+  right: 20px;
+  width: 50px;
+  height: 50px;
+  z-index: 2;
+
+  svg {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    cursor: pointer;
+    transition: opacity 0.3s ease-in-out;
+    filter: drop-shadow(0 0 2px #333);
+    &:hover {
+      opacity: 90%;
+    }
+  }
+}
+
+.chatbox {
+  width: 300px;
+  min-height: 300px;
+  display: none;
+  flex-direction: column;
+  border-radius: 4px;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  background-color: #fff;
+  box-shadow: 0 0 4px #ccc;
+  background: linear-gradient(to bottom, #006aff, #00b2ff);
+
+  .header {
+    color: #006aff;
+    border-radius: inherit;
+    border-bottom-left-radius: 0;
+    border-bottom-right-radius: 0;
+    background-color: #fff;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+    gap: 10px;
+
+    .hide {
+      filter: drop-shadow(0 0 1px #006aff);
+      cursor: pointer;
+    }
+    div {
+      width: 50%;
+      overflow: hidden;
+      display: flex;
+      align-items: center;
+      gap: 10px;
+      img {
+        border-radius: 50%;
+        width: 24px;
+        height: 24px;
+      }
+      span {
+        line-height: 1;
+        padding-top: 3px;
+      }
+    }
+  }
+
+  .box {
+    flex: 1;
+    border-top: 1px solid #006aff;
+
+    min-height: 100px;
+    background-color: #fff;
+    padding: 10px;
+    display: flex;
+    gap: 5px;
+    flex-direction: column;
+    align-items: start;
+
+    p {
+      font-size: 12px;
+      color: #333;
+      margin: 2px 0;
+      background-color: rgba(204, 204, 204, 20%);
+      width: fit-content;
+      text-wrap: wrap;
+      line-height: 1.5;
+      max-width: 48%;
+      padding: 5px 10px;
+      border-radius: 10px;
+    }
+    .me {
+      margin-left: 20px;
+      position: relative;
+
+      &::before {
+        content: "";
+        display: block;
+        width: 13px;
+        height: 13px;
+        border-radius: 50%;
+        background-color: #00b2ff;
+        background-image: url(https://cdn.freelogodesign.org/files/68e0a74eb86a45099377c29064d7a171/thumb/logo_200x200.png?v=0);
+        background-position: center;
+        background-size: cover;
+        top: 2px;
+        left: -20px;
+        position: absolute;
+      }
+    }
+    .you {
+      background-color: #006aff;
+      color: #fff;
+      align-self: flex-end;
+    }
+  }
+
+  .input {
+    background-color: #fff;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    border-radius: inherit;
+    border-top-right-radius: 0;
+    border-top-left-radius: 0;
+    input {
+      width: 70%;
+      height: 32px;
+      padding: 4px 10px 4px 10px;
+      background-color: rgba(204, 204, 204, 20%);
+      border-radius: 9999px;
+      flex: 1;
+      color: #333;
+    }
+
+    img {
+      cursor: pointer;
+
+      &:first-child {
+        transform: rotate(-90deg);
+        &:hover {
+          filter: drop-shadow(0 0 1px #006aff);
+        }
+      }
+
+      &:last-child {
+        &:hover {
+          opacity: 80%;
+        }
+      }
+    }
+  }
+}

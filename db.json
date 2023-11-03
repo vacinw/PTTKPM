@@ -1,0 +1,408 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "username": "anchay",
+      "password": "avc",
+      "diet": null,
+      "liked": [2]
+    },
+    {
+      "id": 2,
+      "username": "toitenho",
+      "password": "aaa",
+      "diet": null,
+      "liked": [2]
+    },
+    {
+      "id": 3,
+      "username": "ranhmanh",
+      "liked": [],
+      "password": "1234",
+      "diet": null
+    },
+    {
+      "username": "toitenlatho",
+      "liked": [],
+      "password": "ddv",
+      "diet": "null",
+      "id": 4
+    },
+    {
+      "username": "toikhongdu",
+      "liked": [],
+      "password": "ranhmanh",
+      "diet": "null",
+      "id": 5
+    },
+    {
+      "username": "anman",
+      "liked": [],
+      "password": "012",
+      "diet": "null",
+      "id": 6
+    },
+    {
+      "username": "ancutgi",
+      "password": "cuchinh",
+      "liked": [],
+      "diet": "null",
+      "id": 7
+    },
+    {
+      "username": "djtcu",
+      "password": "111",
+      "diet": "null",
+      "liked": [],
+      "id": 8
+    },
+    {
+      "username": "anho",
+      "password": "anho",
+      "diet": "null",
+      "liked": [],
+      "id": 9
+    },
+    {
+      "username": "aothatday",
+      "password": "123",
+      "diet": "null",
+      "liked": [],
+      "id": 10
+    },
+    {
+      "username": "aothatdaynhi",
+      "password": "haha",
+      "diet": "null",
+      "liked": [],
+      "id": 11
+    }
+  ],
+  "foods": [
+    {
+      "id": 1,
+      "image": "https://img-global.cpcdn.com/recipes/70bb32449091bedd/1360x964cq70/xa-xiu-n%E1%BA%A5m-dui-ga-recipe-main-photo.webp",
+      "name": "Nấm sốt xá xíu",
+      "description": "Lần trước mình đã chia sẻ công thức xá xíu nấm dùng sốt xá xíu. Phiên bản này mình dùng bột xá xíu của Thái Lan, màu đẹp hơn và vị cũng chuẩn hơn",
+      "diet": "Chế độ ăn chay",
+      "recipe": [
+        "Uớp nấm với bột xá xíu, dầu ăn, hạt nêm trong vòng 30-60 phút. Sau đó cho thêm khoảng 40ml nước",
+        "Om nấm nhỏ lửa khoảng 30 phút rồi tắt bếp (nếu dùng cây nấm loại lớn thì tăng thời gian nấu gấp đôi)",
+        "Khi nấm nguội thì cắt thành miếng mỏng, dọn kèm với xôi trắng",
+        "Nếu các bạn thích dùng nhiều nước xốt xá xíu thì tăng thêm nước và thêm bột xá xíu"
+      ],
+      "ingredients": [
+        { "name": "nấm đùi gà", "quantity": 300, "unit": "gam" },
+        { "name": "bột xá xíu", "quantity": 2, "unit": "muỗng canh" },
+        { "name": "dầu ăn", "quantity": 1, "unit": "muỗng canh" },
+        { "name": "hạt nêm chay", "quantity": 3, "unit": "muỗng cafe" },
+        { "name": "xôi trắng ăn kèm", "quantity": null, "unit": "" }
+      ],
+      "userLiked": []
+    },
+    {
+      "id": 2,
+      "image": "https://img-global.cpcdn.com/recipes/78db3049c55c50b2/1360x964cq70/th%E1%BB%8Bt-b%E1%BA%B1m-chay-xao-s%E1%BA%A3-%E1%BB%9Bt-recipe-main-photo.webp",
+      "name": "Thịt bằm chay xào sả ớt",
+      "description": "Sáng nay mình về chùa, được cho 1 gói thịt bằm chay. Vốn dĩ mình không khuyến khích mọi người dùng nhiều đồ chay công nghiệp như vậy nhưng mà đồ được nhà chùa cho nên trân trọng mang về nấu.Tuy nhiên, đây là gợi ý 1 món sẽ trở thành cứu cánh cho những lúc cần đồ ăn mang đi xa ăn trong 1-2 ngày.",
+      "diet": "Chế độ ăn chay",
+      "recipe": [
+        "Thịt bằm chay ngâm nước khoảng 20- 30’ cho mềm.Đổ ra rổ, xả lại vài lần nước.",
+        "Sả bằm hoặc xay nhuyễn. Cho sả vào chảo xào thơm, nêm hạt nêm, mắm chay + ớt, xào đến khi sả khô",
+        "Cho tiếp thịt bằm chay vào xào nhỏ lửa. Thêm 1/2 chén nhỏ nước lọc. Nêm hạt nêm, nước mắm chay vừa ăn.Cho thêm một ít dầu ăn cho mềm. Khi nguyên liệu vừa ráo thì tắt bếp.Món này ăn với cơm hay xôi hoặc cháo trắng đều ngon"
+      ],
+      "ingredients": [
+        { "name": "thịt bằm chay", "quantity": null, "unit": "" },
+        { "name": "Sả bằm", "quantity": null, "unit": "" },
+        { "name": "Ớt xay hoặc bằm nhuyễn", "quantity": null, "unit": "" },
+        { "name": "Nước tương, hạt nêm, dầu ăn", "quantity": null, "unit": "" }
+      ],
+      "userLiked": []
+    },
+    {
+      "id": 3,
+      "image": "https://img-global.cpcdn.com/recipes/99151d2827f24d9b/1360x964cq70/ch%E1%BA%A3-d%E1%BA%ADu-xanh-recipe-main-photo.webp",
+      "name": "Chả đậu xanh",
+      "description": "Món này chẳng có gì đặc biệt. Cái đặc biệt ở đây là mình lại gom góp các nguyên liệu thừa từ hôm trước, chế ra món chả đậu xanh.Nấu xong, ngắm nghía rồi lại ngẫm. Cuộc sống vốn chẳng bao giờ cho mình tất cả những điều mình mong muốn, nên thay việc vào phải đôn đáo chaỵ tìm cho đủ hay than vãn, khó chịu bởi cái sự thiếu thì mình hãy chế nó thành thứ “ngon lành” hay ít nhất là “xơi được” ví như cách mình vẫn thường chế ra các món gọi là Vetula food ( = Vét tủ lạnh)Có người, món ăn ngon nghĩa là cao lương mĩ vị, nguyên liệu đắt tiền, đựng trong chén bát cao cấp. Nhưng cũng có những người, món ăn ngon đơn giản là hợp khẩu vị, sạch lành.Tiêu chuẩn về cái ngon, mỗi người mỗi khác nhưng suy cho cùng, vị ngon nào cũng chỉ qua cái lưỡi là hết, phải ko bạn?",
+      "diet": "Chế độ ăn chay",
+      "recipe": [
+        "Đậu phụ luộc sôi 5-7’ cho chắc lại, vớt ra rổ cho ráo sau đó tán nhuyễn mịn.",
+        "Cho đậu phụ, đậu xanh, tiêu, hạt nêm… Trộn đều.",
+        "Viên thành từng viên tròn, chiên vàng."
+      ],
+      "ingredients": [
+        { "name": "Đậu xanh đã hấp chín", "quantity": 100, "unit": "gam" },
+        { "name": "Đậu phụ", "quantity": 250, "unit": "gam" },
+        { "name": "Hạt tiêu, hạt nêm", "quantity": null, "unit": "" },
+        { "name": "Rau mùi", "quantity": null, "unit": "" }
+      ],
+      "userLiked": []
+    },
+    {
+      "id": 4,
+      "image": "https://img-global.cpcdn.com/recipes/564f75e93a9eb8a0/1360x964cq70/chu%E1%BB%91i-xanh-om-d%E1%BA%ADu-n%E1%BA%A5m-m%E1%BB%A1-recipe-main-photo.webp",
+      "name": "Chuối xanh om đậu nấm mỡ",
+      "description": "Hôm nay đúng ngày giỗ mẹ BB. Hồi còn sống, mẹ thích canh chuối nấu đậu, ốc ăn với bún. Mình từ ngày mẹ mất, 20 năm chỉ cúng đồ chay. Mình nấu món chuối đậu với nấm mỡ. Thêm ít xôi vò HN, chè hạt sen, toàn món mẹ thích và cũng là món mẹ hay nấu cho mình trước kia.Vài món đơn sơ nhưng gói trọn thương nhớ dành cho mẹ…",
+      "diet": "Chế độ ăn chay",
+      "recipe": [
+        "Chuối xanh bào sạch vỏ, cắt khúc, ngâm muối 30-45’ cho ra nhựa. Rửa lại thật sạch.",
+        "Đậu cắt miếng vuông chiên vàng.Nấm mỡ áp chảo hơi hanh vàng.",
+        "Nghệ giã nhỏ, xào nghệ với ít dầu ăn, xào nhỏ lửa vài phút rồi cho chuối vào đảo đều. Nêm hạt nêm vừa ăn, đổ nước xăm xắp. Cho dấm bỗng/ mẻ (lượng đủ dùng) vào nồi.Khi nước sôi, cho tiếp đậu và nấm vào om nhỏ lửa. Các bạn nhớ canh chừng, nước xăm xắp nguyên liệu, nếu cạn thì cho thêm.Khi chuối đã mềm, thấm gia vị, cho rau tía tô và ngò gai vào rồi tắt bếp"
+      ],
+      "ingredients": [
+        { "name": "chuỗi xanh", "quantity": 3, "unit": "trái" },
+        { "name": "đậu nhỏ", "quantity": 2, "unit": "miếng" },
+        { "name": "nấm mỡ", "quantity": 100, "unit": "gam" },
+        { "name": "Nghệ cả củ", "quantity": null, "unit": "" },
+        { "name": "Rau tía tô, rau ngò gai", "quantity": null, "unit": "" },
+        {
+          "name": "Dấm bỗng hoặc Cơm mẻ (không có cũng được)",
+          "quantity": null,
+          "unit": ""
+        },
+        { "name": "Hạt nêm, muối", "quantity": null, "unit": "" }
+      ],
+      "userLiked": []
+    },
+    {
+      "id": 5,
+      "image": "https://img-global.cpcdn.com/recipes/12376d0c5424e4db/1360x964cq70/s%C6%B0%E1%BB%9Dn-n%C6%B0%E1%BB%9Bng-chay-recipe-main-photo.webp",
+      "name": "Sườn nướng chay",
+      "description": "Muốn ăn chay mà thèm hương vị sườn nướng thì tham khảo công thức này của mình nha.",
+      "diet": "Chế độ ăn chay",
+      "recipe": [
+        "Ngâm sườn lát nở mềm xả bóp nhiều lần,vắt ráo,ướp vào 1/2mcf bột nêm rồi cắt làm tư.củ sắn xắt theo miếng sườn dày độ 3 ly đem luộc chín để ráo.dùng cây ghim kim tiền ghim miếng củ sắn miếng sườn,dài ngắn tùy chảo chiên,miếng củ sắn trước khi ghim lăn qua bột năng để tạo chất kết dính với miếng sườn",
+        "Cho xâu sườn lát vào chảo chiên vàng.bớt dầu ra cho gói gia vị thịt nướng vào thêm 1mc tương ớt 1mcf đường nửa chén nước nấu tan gia vị nước cạn bớt cho xău sườn vào lăn đến cạn nước khi ăn rắc thêm đậu phộng,ăn kèm bún hay cơm đều được"
+      ],
+      "ingredients": [
+        { "name": "sườn lát", "quantity": 6, "unit": "miếng" },
+        { "name": "sắn", "quantity": 1, "unit": "củ" },
+        { "name": "Gia vị thịt nướng", "quantity": 1, "unit": "gói" },
+        { "name": "bột nêm, bột năng", "quantity": null, "unit": "" },
+        { "name": "tương ớt, đường", "quantity": null, "unit": "" }
+      ],
+      "userLiked": []
+    },
+    {
+      "id": 6,
+      "image": "https://img-global.cpcdn.com/recipes/f011a88994b862aa/1360x964cq70/%E1%BB%A9c-ga-cu%E1%BB%99n-mang-tay-an-kieng-recipe-main-photo.webp",
+      "name": "Ức gà cuộn măng tây (ăn kiêng)",
+      "description": "Ức gá cuộn măng tây dành cho người ăn kiêng hoặc tăng cơ giảm mỡ",
+      "diet": "Chế độ ăn kiêng",
+      "recipe": [
+        "Sơ chế ức gà và cắt thành lát mỏng, ướp với các gia vị ở trên",
+        "Sơ chế măng tây, rửa sạch với nước muối loãng",
+        "Chần nhanh măng tây và cho vào chậu nước đá để giữ độ giòn",
+        "Cuộn ức gà và măng tây",
+        "Xịt 3 xịt dầu ăn kiêng vào chảo",
+        "Áp chảo ức gà trong 15 phút",
+        "Cho 1 muỗng nước tương nấu trong 10’ cho thấm vào cuộn gà"
+      ],
+      "ingredients": [
+        { "name": "ức gà", "quantity": 200, "unit": "gam" },
+        { "name": "măng tây", "quantity": 200, "unit": "gam" },
+        { "name": "hành tím", "quantity": 2, "unit": "tép" },
+        { "name": "nước mắm", "quantity": 1, "unit": "muỗng cafe" },
+        { "name": "tiêu", "quantity": 0.5, "unit": "muỗng cafe" },
+        { "name": "dầu ăn kiêng", "quantity": null, "unit": "" }
+      ],
+      "userLiked": []
+    },
+    {
+      "id": 7,
+      "image": "https://img-global.cpcdn.com/recipes/e55c1492c2383824/1360x964cq70/salad-cho-ng%C6%B0%E1%BB%9Di-an-kieng-recipe-main-photo.webp",
+      "name": "Salad cho người ăn kiêng",
+      "description": "",
+      "diet": "Chế độ ăn kiêng",
+      "recipe": [
+        "Xà lách rửa sạch ngâm nước muối loãng, vớt ra sắt vừa ăn.",
+        "Ngô luộc sau đó thái hạt.",
+        "Khoai lang luộc chín sắt nhỏ.",
+        "Trứng luộc chín bổ như hình, bày tất cả ra bát thêm nước sốt khoảng 2 thìa ăn cơm nước"
+      ],
+      "ingredients": [
+        { "name": "Xà lách đà lạt", "quantity": 2, "unit": "cây lớn" },
+        { "name": "ngô ngọt", "quantity": null, "unit": "" },
+        { "name": "trứng", "quantity": null, "unit": "" },
+        { "name": "khoai lang", "quantity": null, "unit": "" },
+        { "name": "sốt mè đen", "quantity": null, "unit": "" }
+      ],
+      "userLiked": []
+    },
+    {
+      "id": 8,
+      "image": "https://img-global.cpcdn.com/recipes/4eee9a9f9e3a3864/1360x964cq70/banh-chu%E1%BB%91i-cho-ng%C6%B0%E1%BB%9Di-an-kieng-dung-d%C6%B0%E1%BB%A3c-cho-tr%E1%BA%BB-tren-1-tu%E1%BB%95i-recipe-main-photo.webp",
+      "name": "Bánh chuối cho người ăn kiêng- dùng được cho trẻ trên 1 tuổi",
+      "description": "Món bánh này được làm để đãi thằng nhóc 1 tuổi con bạn thân mình. Dịch covid khiến mọi người xa cách nhau, nên mãi hơn nửa năm bọn mình mới gặp nhau (cũng vì mọi người không ra khỏi nhà ấy 😛 )",
+      "diet": "Chế độ ăn kiêng",
+      "recipe": [
+        "Dằm nhỏ 3 trái chuối hoặc dùng máy đánh trứng để đánh (1 trái còn lại để trang trí mặt bánh)",
+        "Thêm vào hỗn hợp mật ong, vani, bột mì, baking pơder trộn đều thành hỗn hợp sệt",
+        "Cho ra khuôn, trang trí bằng nho khô và chuối cắt lát. Đem nướng ở 150đ- 30p"
+      ],
+      "ingredients": [
+        {
+          "name": "bột mì số 11 (hoặc bột mì đa dụng), ăn kiêng thì thay bằng bột yến mạch",
+          "quantity": 45,
+          "unit": "gam"
+        },
+        { "name": "chuối sứ chín", "quantity": 4, "unit": "trái" },
+        { "name": "hạt khô", "quantity": null, "unit": "" },
+        { "name": "mật ong", "quantity": 10, "unit": "gam" },
+        { "name": "vani", "quantity": 1, "unit": "nắp" },
+        { "name": "banking powder", "quantity": 8, "unit": "gam" }
+      ],
+      "userLiked": []
+    },
+    {
+      "id": 9,
+      "image": "https://img-global.cpcdn.com/recipes/921ade571007bc9b/1360x964cq70/inarizushi-g%E1%BA%A1o-l%E1%BB%A9t-cho-h%E1%BB%87-an-kieng-recipe-main-photo.webp",
+      "name": "Inarizushi gạo lứt cho hệ ăn kiêng 😋",
+      "description": "Món cơm bọc vỏ đậu phụ cực kỳ phổ biến ở Nhật và cả trong bữa ăn hàng ngày của người Nhật. Mình kết hợp để ăn kiêng và ăn chay cũng rất ok. Mình thay gạo trắng dẻo Nhật bằng gạo lứt đen và nâu và chút quinoa (cái này bạn có thể bỏ qua nếu không tìm được ở VN), cơm thì mình trộn gia vị trộn cơm Nhật (vị lá shiso tía tô và ômai mơ Nhật), và ăn kèm với lá tía tô Shiso Nhật😛. Rất ngon mà vẫn hợp lý cho các bạn đang trong quá trình ăn kiêng hoặc ăn chay 😋",
+      "diet": "Chế độ ăn kiêng",
+      "recipe": [
+        "Loại vỏ đậu phụ bọc bánh và gia vị trộn cơm",
+        "Đổ chung các loại gạo vào nấu chín như bình thường",
+        "Cơm chín để nguội. Trộn chung với gia vị trộn cơm rồi nhét cơm vào vỏ đậu phụ. Trang trí và enjoy 😊. Chúc các bạn ngon miệng 😋"
+      ],
+      "ingredients": [
+        { "name": "Vỏ đậu phụ ngâm dấm Nhật", "quantity": null, "unit": "" },
+        { "name": "gạo lứt đen", "quantity": null, "unit": "" },
+        { "name": "gạo lứt nâu", "quantity": null, "unit": "" },
+        { "name": "gia vị rắc cơm Nhật", "quantity": null, "unit": "" },
+        { "name": "lá tía tô Nhật tươi", "quantity": null, "unit": "" },
+        { "name": "quinoa(nếu có)", "quantity": null, "unit": "" }
+      ],
+      "userLiked": []
+    },
+    {
+      "id": 10,
+      "image": "https://img-global.cpcdn.com/recipes/380e7b5209f1da7c/1360x964cq70/canh-d%E1%BA%ADu-hu-th%E1%BB%8Bt-b%E1%BA%B1m-recipe-main-photo.webp",
+      "name": "Canh Đậu Hũ Thịt Bằm",
+      "description": "",
+      "diet": "Chế độ ăn thường",
+      "recipe": [
+        "Chuẩn bị các nguyên liệu sẵn sàng sạch sẽ, để ráo. Cà chua cắt múi cau, đậu hũ cắt miếng vừa ăn.",
+        "Thịt xay ướp với gia vị: muối hồng, đầu hành hành đập dập bằm nhỏ, tiêu xay, trộn đều để 10 phút cho thấm.",
+        "Nấu sôi nước, cho thịt vào đợi sôi lên lại thì vớt thật sạch bọt nếu có. Nấu nhỏ lửa tầm 15 phút sau đó cho cà chua và đậu hũ vào, nấu thêm 10 phút nữa để nuớc thịt thấm vào đậu hũ sẽ ngon hơn. Nêm nếm lại cho vừa khẩu vị. Thả hành ngò vào và tắt bếp, múc canh ra tô."
+      ],
+      "ingredients": [
+        { "name": "thịt heo xay", "quantity": 100, "unit": "gam" },
+        { "name": "cà chua", "quantity": 1, "unit": "trái" },
+        { "name": "đậu hũ", "quantity": 1, "unit": "bìa" },
+        { "name": "hành ngò", "quantity": null, "unit": "" },
+        { "name": "muối hồng", "quantity": null, "unit": "" },
+        { "name": "bột ngọt", "quantity": null, "unit": "" }
+      ],
+      "userLiked": []
+    },
+    {
+      "id": 11,
+      "image": "https://img-global.cpcdn.com/recipes/6bbc5aacfe3627d7/1360x964cq70/ca-loc-h%E1%BA%A5p-b%E1%BA%A7u-recipe-main-photo.webp",
+      "name": "Cá lóc hấp bầu",
+      "description": "Món ăn nổi tiếng với phần cá lóc hấp chín cùng phần bầu ngọt ngọt thấm vị cá rất ngon. Mình dùng phần phile cá cho đỡ xương",
+      "diet": "Chế độ ăn thường",
+      "recipe": [
+        "Phile cá lóc bóp muối rửa sạch, ướp với muối, hạt nêm, tiêu xay, đầu hành trong 30 phút. Bầu cắt 2/3 theo chiều dọc, rửa sạch cho cá đã ướp vào, thêm hành gừng",
+        "Đóng phần nắp lại và cho vào hấp 15 phút",
+        "Đây là một món ăn nổi tiếng với phần cá lóc hấp chín cùng phần bầu ngọt ngọt thấm vị cá rất ngon"
+      ],
+      "ingredients": [
+        { "name": "cá lóc", "quantity": 0.5, "unit": "con" },
+        { "name": "bầu", "quantity": 1, "unit": "trái" },
+        { "name": "gừng", "quantity": 0.5, "unit": "củ" },
+        { "name": "hành ngò", "quantity": null, "unit": "" },
+        { "name": "muối", "quantity": null, "unit": "" },
+        { "name": "tiêu xay", "quantity": null, "unit": "" },
+        { "name": "hạt nêm", "quantity": null, "unit": "" }
+      ],
+      "userLiked": []
+    },
+    {
+      "id": 12,
+      "image": "https://img-global.cpcdn.com/recipes/a77e31166e8d4077/1360x964cq70/ca-phao-mu%E1%BB%91i-chua-ng%E1%BB%8Dt-recipe-main-photo.webp",
+      "name": "Cà pháo muối chua ngọt",
+      "description": "",
+      "diet": "Chế độ ăn thường",
+      "recipe": [
+        "Cà pháo mua về rửa sạch cắt bỏ núm, bổ đôi và thả vào chậu nước muối, ngâm khoảng 2h cho cà ra chất độc và không bị thâm. Sau đó vớt ra để ráo nước. Tỏi bóc vỏ, ớt sừng rửa sạch cho vào máy xay sinh tố xay nhuyễn cùng tỏi. Dùng 5 muỗng tương ớt, 5 muỗng đường, 2 muỗng dấm, 2 muỗng muối, 1 bát ăn cơm nước sôi để nguội khuấy tan sau đó cho hỗn hợp tỏi ớt vào. Thái ớt cay và riềng xay vào trộn đều, nêm nếm lại cho vừa ăn.",
+        "Sau khi hỗn hợp nước ngâm đã xong thì trút cà vào trộn đều và cho vào hộp cất ngăn mát tủ lạnh. Qua ngày hôm sau là có thể ăn được rồi. Mình dùng cùng cơm nóng, mắm tép và canh chua cá cực kỳ tuyệt vời. Chúc các bạn thành công."
+      ],
+      "ingredients": [
+        { "name": "cà pháo", "quantity": 500, "unit": "gam" },
+        { "name": "riềng xay", "quantity": 100, "unit": "gam" },
+        { "name": "ớt sừng đỏ", "quantity": 3, "unit": "quả" },
+        { "name": "ớt đỏ cay", "quantity": 1, "unit": "quả" },
+        { "name": "tương ớt", "quantity": 5, "unit": "muỗng" },
+        { "name": "bột canh", "quantity": 2, "unit": "muỗng" },
+        { "name": "đường", "quantity": 5, "unit": "muỗng" },
+        { "name": "dấm", "quantity": 3, "unit": "muỗng" },
+        { "name": "tỏi", "quantity": 1, "unit": "củ" },
+        { "name": "nước lọc", "quantity": 1, "unit": "bát con" }
+      ],
+      "userLiked": []
+    },
+    {
+      "id": 13,
+      "image": "https://img-global.cpcdn.com/recipes/1a41587772bdb520/1360x964cq70/khoai-tay-chien-gion-recipe-main-photo.webp",
+      "name": "Khoai tây chiên giòn",
+      "description": "Khoai tây chiên kiểu này giòn rụm rất ngon",
+      "diet": "Chế độ ăn thường",
+      "recipe": [
+        "Khoai gọt vỏ, bào lát mỏng, ngâm trong nước muối loãng 15p rồi rửa sạch, để ráo",
+        "Lấy giấy ăn thấm khô rồi cho vào chiên ngập dầu, đảm bảo miếng khoai giòn rụm"
+      ],
+      "ingredients": [
+        { "name": "khoai tây", "quantity": 1, "unit": "củ" },
+        { "name": "dầu ăn", "quantity": null, "unit": "" },
+        { "name": "muối", "quantity": null, "unit": "" }
+      ],
+      "userLiked": []
+    },
+    {
+      "id": 14,
+      "image": "https://img-global.cpcdn.com/recipes/25fd95f23069d7b5/1360x964cq70/kem-chu%E1%BB%91i-recipe-main-photo.webp",
+      "name": "Kem chuối😍",
+      "description": "",
+      "diet": "Chế độ ăn thường",
+      "recipe": [
+        "Cắt chuối và giã lạc ra🤤 tuỳ mọi người cắt sao cắt nha",
+        "Đổ sữa và nước cốt dừa vô nồi nha. Khoan dừng khoảng chừng 2s đừng bật bếp vội nha🤭",
+        "Khúc này là cho đường tuỳ vào khẩu vị nha",
+        "Đổ bột năng vào bát cho xíu nước để khuấy tan nhé. Sau đó bật bếp lên🔥",
+        "Cho từ từ bột nặng vào khuấy tới khi thấy sánh mịn thì tắt bếp",
+        "Nguội thì đổ wiping và sữa chua vào. (Hơi nóng nóng đổ zô ô sờ kê nha)",
+        "Cứ đổ từng lớp tới khi hết là được. Sau đó cho n vô tủ lạnh ngủ 1 đêm. Sáng dậy ô kê liền🤣",
+        "Ly kem mlem mlem nè"
+      ],
+      "ingredients": [
+        { "name": "nước cốt dừa", "quantity": 400, "unit": "ml" },
+        { "name": "sữa tươi", "quantity": 450, "unit": "ml" },
+        { "name": "chuối", "quantity": 5, "unit": "quả" },
+        { "name": "lạc", "quantity": null, "unit": "" },
+        { "name": "nho khô", "quantity": null, "unit": "" },
+        { "name": "wipping crem", "quantity": 1, "unit": "hộp" }
+      ],
+      "userLiked": []
+    },
+    {
+      "id": 15,
+      "image": "https://img-global.cpcdn.com/recipes/2735acc049b496be/1360x964cq70/mang-tay-xao-h%E1%BA%A1t-di%E1%BB%81u-d%E1%BA%A7u-hao-recipe-main-photo.webp",
+      "name": "Măng tây xào hạt điều dầu hào",
+      "description": "",
+      "diet": "Chế độ ăn thường",
+      "recipe": [
+        "Măng tây rửa sạch cắt đuôi, phần non cắt đoạn vừa ăn",
+        "Nấm đông cô ngâm và trụng qua nước nóng",
+        "Bắt chảo phi tỏi. Cho măng tây (và nấm đông cô nếu thích) vào xào sơ 3 p sau đó cho 2 muỗng dầu hào, ít đường muối bột ngọt hạt nêm, nêm vừa ăn xào thêm cỡ 2p cho đều rồi cho hạt điều vào đảo sơ tắt lửa. Dọn ra đĩa. Ăn với cơm hoặc món mặn bá chấy"
+      ],
+      "ingredients": [
+        { "name": "măng tây", "quantity": 200, "unit": "gram" },
+        { "name": "hạt điều", "quantity": 50, "unit": "gram" },
+        { "name": "dầu hào", "quantity": null, "unit": "" },
+        { "name": "nấm đông cô", "quantity": null, "unit": "" }
+      ],
+      "userLiked": []
+    }
+  ]
+}

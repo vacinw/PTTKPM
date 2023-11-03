@@ -1,0 +1,55 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: transparent;
+    font-family: 'JosefinSans', sans-serif;
+    text-decoration: none;
+    // color: #222831;
+}
+
+.html {
+    font-size: 62.5%;
+}
+
+.body {
+    font-size: 1.6rem;
+    line-height: 1.5;
+    text-rendering: optimizeSpeed;
+}
+
+button,
+input,
+[tabindex] {
+    outline: none;
+    border: none;
+}
+
+button {
+    border: 1px solid transparent;
+}
+
+// fonts
+@font-face {
+    font-family: JosefinSans;
+    src: url('/assets/fonts/JosefinSans-Bold.ttf');
+    font-weight: 700;
+}
+
+@font-face {
+    font-family: JosefinSans;
+    src: url('/assets/fonts/JosefinSans-SemiBold.ttf');
+    font-weight: 600;
+}
+
+@font-face {
+    font-family: JosefinSans;
+    src: url('/assets/fonts/JosefinSans-Regular.ttf');
+    font-weight: 400;
+}
+
+@font-face {
+    font-family: JosefinSans;
+    src: url('/assets/fonts/JosefinSans-ExtraLight.ttf');
+    font-weight: 200;
+}
